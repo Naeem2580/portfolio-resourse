@@ -1,0 +1,43 @@
+
+body{
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+
+}
+.primary-color{
+    color: #fd6a0a;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+li a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.primary-btn{
+    border-radius: 10px;
+    background-color: #fd6a0a;
+    padding: 10px;
+    border: 0;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+}
